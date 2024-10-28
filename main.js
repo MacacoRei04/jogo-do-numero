@@ -15,7 +15,7 @@ function verificarPalpite() {
 
 palpites.textContent += palpitesUsuario + " ";
 
-    if(palpiteUsuario === numeroAleatorio {
+    if(palpiteUsuario === numeroAleatorio) {
         ultimoResultado.textContent = "parabéns! Você acertou!";
         ultimoResultado.computedStyleIeMap.backgroundColor = "green";
         baixoOuAlto.textContent = "";
